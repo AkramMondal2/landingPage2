@@ -1,0 +1,422 @@
+body
+{
+    margin: 0px ;
+}
+/* ----------navbar---------- */
+*
+{
+    font-family: sans-serif;
+}
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #767575;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.list
+{
+  margin-left: 400px; 
+}
+.list-item 
+{
+    display: inline;
+    margin-left: 20px; 
+    font-size: 17px;
+    color: #808080;
+}
+.list-item a
+{
+    text-decoration: none;
+    color: white;
+}
+.list-item a:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.navmenu
+{
+ display: none;
+}
+.navbutton button
+{
+    
+    margin-right: 50px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #f4d3d3;
+    box-shadow: 0px 0px 1px white;
+    font-size: 15px; 
+    color: #ffffff;
+}
+/* ----------enpowering---------- */
+.enpowering
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: #767575;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.enpowering-right .heading
+{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 0px;
+}
+.enpowering-right p
+{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: -28px;
+}
+.enpowering input
+{
+    width: 333px;
+    height: 35px;
+}
+
+.enpowering-right button
+{
+    margin-left: -105px;
+    background-color: #3c6356;
+    border: 1px solid #3c6356;
+    padding: 6px 20px;
+    color: #ffffff;
+} 
+.enpowering-left img
+{
+    width: 280px;
+} 
+/* -----------target---------- */
+.target-heading
+{
+    font-size: 40px;
+    margin-top: 100px;
+}
+.target
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 140px;
+}
+.target-img
+{
+    width: 985px;
+    height: 600px;
+    margin-top: 50px;
+}
+/* -----------design----------  */
+.design-heading
+{
+    font-size: 40px;
+    margin-top: 100px;
+}
+.design
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+}
+.design-left .head
+{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 55px;
+}
+.design-left p
+{
+    color: #808080;
+}
+
+.design-left button
+{
+    background-color: #7bb4a1;
+    border: 1px solid #7bb4a1;
+    padding: 6px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+} 
+.design-right img
+{
+    width: 340px;
+    height: 320px;
+} 
+ /* -----------marketing----------  */
+ .marketing
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+}
+.marketing-right .head
+{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 28px;
+}
+.marketing-right p
+{
+    color: #808080;
+}
+
+.marketing-right button
+{
+    background-color: #7bb4a1;
+    border: 1px solid #7bb4a1;
+    padding: 6px 20px;
+    margin-top: 10px;
+    color: #ffffff;
+} 
+.marketing-left img
+{
+    width: 340px;
+    height: 320px;
+} 
+
+/* -----------judge----------  */
+
+.judge
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+}
+.judge-left .head
+{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 55px;
+}
+.judge-left p
+{
+    color: #808080;
+}
+
+.judge-left button
+{
+    background-color: #7bb4a1;
+    border: 1px solid #7bb4a1;
+    padding: 6px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+} 
+.judge-right img
+{
+    width: 340px;
+    height: 285px;
+} 
+/* -----------teams------------ */
+.teams
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.teams h1
+{
+  font-size: 40px;
+}
+.teams p
+{
+    color: #808080;
+    margin-top: 38px;
+}
+/* -----------teams-intro------------  */
+.teams-intro
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.teams-intro img
+{
+    width: 350px;
+}
+.teams-intro p
+{
+    color: #808080;
+}
+.see-more
+{
+    background-color: #7bb4a1;
+    border: 1px solid #7bb4a1;
+    padding: 15px 35px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+/* ----------footer---------- */
+.footer-top
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0d0d0d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom:1px solid #ffffff;
+}
+.footer-top > div:first-child
+{
+    margin-left: 50px;
+}
+.footer-top > div:last-child
+{
+    margin-right: 50px;
+} 
+.footer-top > div:last-child img
+{
+   margin-right: 15px;
+}
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    
+}
+.footer ul
+{
+    list-style-type: none;  
+}
+.footer li
+{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #808080;
+}
+/* ---------------@media screen--------- */
+@media screen and (max-width: 1270px) 
+{
+    .list
+    {
+        margin-left: 150px;
+    }    
+}
+/* ---------------@media screen--------- */
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    /* -------------nav------------ */
+    .list
+    {
+        display: none;
+    }
+    .navmenu
+    {
+     display: block;
+    }
+    .navbutton button
+    {
+        display: none;  
+    }
+    /* --------------target------------ */
+    .target 
+    {
+        gap: 75px; 
+    }
+    .target-img 
+    {
+        width: 735px;
+        height: 500px;
+    }
+    
+}  
+/* ---------------@media screen--------- */ 
+@media screen and (max-width: 768px) 
+{
+    /* -------------nav------------ */
+    .nav-logo img
+    {
+        width: 150px;
+    }
+    .list
+    {
+        display: none;
+    }
+    .navmenu
+    {
+     display: block;
+    }
+    .navbutton button
+    {
+        display: none;  
+    }
+    /* ----------enpowering------------ */
+    .enpowering-right .heading 
+    {
+        font-size: 40px;
+    }
+    /* --------------target------------ */
+    .target 
+    {
+        gap: 25px; 
+    }
+    .target-img 
+    {
+        width: 340px;
+        height: 320px;
+    }
+    /* -----------design------------- */
+    .design-left .head 
+    {
+        font-size: 29px;
+    }
+    .design-left p 
+    {
+        font-size: 15px;
+    }
+    /* ---------------marketing--------- */
+    .marketing-right .head 
+    {
+        font-size: 29px;
+    }
+    .marketing-right p 
+    {
+        font-size: 15px;
+    }
+    /* -----------judge----------- */
+    .judge-left .head 
+    {
+        font-size: 29px;
+    }
+    .judge-left p 
+    {
+        font-size: 15px;
+    }
+    /* ----------------teams----------- */
+    .teams p 
+    {
+        font-size: 14px;
+    }
+    .footer-top > div:first-child 
+    {
+        margin-left: 10px;
+    }
+    .footer-top > div:first-child img 
+    {
+        width: 115px;
+    }
+    .footer-top > div:last-child
+     {
+        margin-right: 0px;
+    }
+}
